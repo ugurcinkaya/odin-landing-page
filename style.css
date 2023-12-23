@@ -107,6 +107,16 @@ h1 {
 
 .quote {
     display: flex;
+    background-color: #E5E7EB;
+    padding: 32px 300px;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
 }
 
 .call-to-action {
