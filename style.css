@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.main {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.header, .hero, .main, .quote, .call-to-action, .footer {
+    flex: 1;
+}
+
+.main {
+    flex-grow: 1;
+}
+
